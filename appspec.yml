@@ -1,8 +1,8 @@
 version 0.0
 os: linux
-file:
+files:
   - source: /
-    destination: /home/ubuntu/project
+    destination: /home/ubuntu/project/
 hooks:
   BeforeInstall:
     - location: stop_server
